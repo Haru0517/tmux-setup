@@ -1,2 +1,3 @@
-# tmux-setup
-Tmux installer and .tmux.conf.
+# tmux-config 
+.tmux.conf.
+
