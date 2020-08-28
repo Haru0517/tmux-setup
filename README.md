@@ -1,5 +1,5 @@
 # tmux-config 
-tmux.conf for mac.
+tmux.conf & installer.
 
 
 ## Usage
