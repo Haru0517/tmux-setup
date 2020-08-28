@@ -1,3 +1,9 @@
 # tmux-config 
-.tmux.conf.
+tmux.conf for mac.
+
+
+## Usage
+```shellscript
+> sh bin/installer.sh
+```
 
