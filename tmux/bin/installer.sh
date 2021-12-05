@@ -14,7 +14,7 @@ if [ -z $(which tmux) ]; then
 fi
 
 echo "----- link tmux.conf -----"
-ln -sf $(pwd)/tmux.conf ~/.tmux.conf
+ln -sf $(pwd)/tmux/tmux.conf ~/.tmux.conf
 
 tmux source ~/.tmux.conf
 

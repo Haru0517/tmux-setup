@@ -1,0 +1,1 @@
+sh ./tmux/bin/installer.sh
