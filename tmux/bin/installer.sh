@@ -1,10 +1,12 @@
+echo "### setup tmux ###"
+
 # install tmux
 if [ -z $(which tmux) ]; then
   if [ "$(uname)" == 'Darwin' ]; then
     # mac
     brew install tmux
   elif [ "$(expr substr $(uname -s) 1 5)" == 'Linux' ]; then
-    # linux
+    # linux 
     yum install tmux
   fi
 fi
