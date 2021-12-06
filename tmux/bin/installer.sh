@@ -1,9 +1,5 @@
-#!bin/bash
-
-echo "##### setup tmux #####"
-
+# install tmux
 if [ -z $(which tmux) ]; then
-  echo "----- install tmux -----"
   if [ "$(uname)" == 'Darwin' ]; then
     # mac
     brew install tmux
@@ -13,9 +9,7 @@ if [ -z $(which tmux) ]; then
   fi
 fi
 
-echo "----- link tmux.conf -----"
+# link tmux.conf
 ln -sf $(pwd)/tmux/tmux.conf ~/.tmux.conf
 
 tmux source ~/.tmux.conf
-
-echo "##### finish to setup tmux #####"
