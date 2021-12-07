@@ -4,5 +4,8 @@ sh ./git/bin/installer.sh
 # zsh
 sh ./zsh/bin/installer.sh
 
-#tmux
+# tmux
 sh ./tmux/bin/installer.sh
+
+# macos
+sh ./macos/bin/installer.sh
