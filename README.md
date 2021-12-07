@@ -1,7 +1,7 @@
 # dotfiles
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![image](https://user-images.githubusercontent.com/12545287/91533865-916ed400-e94b-11ea-866e-13c94ca4062d.png)
+<img width="565" alt="dotfiles" src="https://user-images.githubusercontent.com/12545287/145033185-3d1e4141-dff1-4fc9-81dc-685217bf5c04.png">
 
 This contains following settings:
 - git
