@@ -5,10 +5,28 @@ setopt correct
 setopt share_history
 setopt hist_ignore_all_dups
 
-# alias
+#############
+### alias ###
+#############
+## General
+alias reload='exec ${SHELL} -l'
+alias ...='cd ../..'
+
 alias ls='ls -G'
 alias ll='ls -hlFG'
 alias la='ls -ahlFG'
+
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias s="cd ~/sources"
+
+## Always enable colored `grep` output
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+## lazygit
+alias lg="lazygit"
 
 # prompt
 autoload -Uz vcs_info
