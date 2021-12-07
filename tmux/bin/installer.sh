@@ -1,4 +1,4 @@
-echo "### setup tmux ###"
+echo "###   setup tmux  ###"
 
 # install tmux
 if [ -z $(which tmux) ]; then

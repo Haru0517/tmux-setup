@@ -1,4 +1,4 @@
-echo "### setup  git ###"
+echo "###   setup git   ###"
 
 # install git
 if [ -z $(which git) ]; then

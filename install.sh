@@ -7,5 +7,8 @@ sh ./zsh/bin/installer.sh
 # tmux
 sh ./tmux/bin/installer.sh
 
+# vim
+sh ./vim/bin/installer.sh
+
 # macos
 sh ./macos/bin/installer.sh

@@ -10,6 +10,9 @@ tell application "Terminal"
     -- open terminal (due to add list of terminal theme)
     do shell script "open './macos/" & themeName & ".terminal'"
 
+    -- wait to ensure that the theme is added
+    delay 1
+
     -- set default theme
     set default settings to settings set themeName
     
