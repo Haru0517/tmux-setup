@@ -11,4 +11,7 @@ sh ./tmux/bin/installer.sh
 sh ./vim/bin/installer.sh
 
 # macos
-sh ./macos/bin/installer.sh
+if [ "$(uname)" == 'Darwin' ]
+then
+    sh ./macos/bin/installer.sh
+fi
